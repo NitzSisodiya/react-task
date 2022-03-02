@@ -1,0 +1,20 @@
+import React from "react";
+
+class RadioButton extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+    render() {
+        return (
+            <>
+                <div className='RadioButton'>
+                    <input type="radio" value="grey" onClick={() => this.props.changeColor('grey')} />Grey 
+                    <input type="radio" value="blue" onClick={() => this.props.changeColor('lightblue')} />Blue 
+                </div>
+            </>
+        );
+
+        
+    }
+}
+export default RadioButton;
