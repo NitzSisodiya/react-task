@@ -8,7 +8,8 @@ class Body extends React.Component {
         user: [
             { id: 1, name: "user1", email: "user1@gml.com", contact: 112233 },
             { id: 2, name: "user2", email: "user2@gml.com", contact: 445566 },
-            { id: 3, name: "user3", email: "user3@gml.com", contact: 778899 }
+            { id: 3, name: "user3", email: "user3@gml.com", contact: 778899 },
+            {id: 4, name: "user3", email: "user3@gml.com", contact: 778899 }
         ]
     };
  
